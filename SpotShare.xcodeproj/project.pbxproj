@@ -11,6 +11,10 @@
 		8F7078952AAC777E00565E1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078942AAC777E00565E1D /* ContentView.swift */; };
 		8F7078972AAC778000565E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7078962AAC778000565E1D /* Assets.xcassets */; };
 		8F70789A2AAC778000565E1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7078992AAC778000565E1D /* Preview Assets.xcassets */; };
+		8F7078A12AAC77F000565E1D /* GetLocationDemoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A02AAC77F000565E1D /* GetLocationDemoUIView.swift */; };
+		8F7078A42AAC782600565E1D /* ShowMapDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A32AAC782600565E1D /* ShowMapDemoView.swift */; };
+		8F7078A62AAC7AA500565E1D /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A52AAC7AA500565E1D /* Annotation.swift */; };
+		8F7078A92AAC886300565E1D /* MapKitEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A82AAC886300565E1D /* MapKitEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		8F7078942AAC777E00565E1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F7078962AAC778000565E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7078992AAC778000565E1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F7078A02AAC77F000565E1D /* GetLocationDemoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationDemoUIView.swift; sourceTree = "<group>"; };
+		8F7078A32AAC782600565E1D /* ShowMapDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMapDemoView.swift; sourceTree = "<group>"; };
+		8F7078A52AAC7AA500565E1D /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		8F7078A82AAC886300565E1D /* MapKitEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,13 @@
 		8F7078912AAC777E00565E1D /* SpotShare */ = {
 			isa = PBXGroup;
 			children = (
+				8F7078A72AAC884B00565E1D /* Ex */,
+				8F7078A22AAC77F900565E1D /* Demo */,
 				8F7078922AAC777E00565E1D /* SpotShareApp.swift */,
 				8F7078942AAC777E00565E1D /* ContentView.swift */,
 				8F7078962AAC778000565E1D /* Assets.xcassets */,
 				8F7078982AAC778000565E1D /* Preview Content */,
+				8F7078A52AAC7AA500565E1D /* Annotation.swift */,
 			);
 			path = SpotShare;
 			sourceTree = "<group>";
@@ -65,6 +76,23 @@
 				8F7078992AAC778000565E1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F7078A22AAC77F900565E1D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8F7078A02AAC77F000565E1D /* GetLocationDemoUIView.swift */,
+				8F7078A32AAC782600565E1D /* ShowMapDemoView.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8F7078A72AAC884B00565E1D /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				8F7078A82AAC886300565E1D /* MapKitEx.swift */,
+			);
+			path = Ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7078A12AAC77F000565E1D /* GetLocationDemoUIView.swift in Sources */,
+				8F7078A62AAC7AA500565E1D /* Annotation.swift in Sources */,
+				8F7078A92AAC886300565E1D /* MapKitEx.swift in Sources */,
 				8F7078952AAC777E00565E1D /* ContentView.swift in Sources */,
 				8F7078932AAC777E00565E1D /* SpotShareApp.swift in Sources */,
+				8F7078A42AAC782600565E1D /* ShowMapDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
