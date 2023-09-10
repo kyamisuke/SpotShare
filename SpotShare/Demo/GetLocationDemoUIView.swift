@@ -6,10 +6,20 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct GetLocationDemoUIView: View {
+    @ObservedObject  var manager = LocationManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(manager.region.center.latitude) : \(manager.region.center.longitude)")
+            Button {
+                manager.reloadRegion()
+            } label: {
+                Text("位置取得")
+            }
+        }
     }
 }
 

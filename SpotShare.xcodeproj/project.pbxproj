@@ -15,6 +15,7 @@
 		8F7078A42AAC782600565E1D /* ShowMapDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A32AAC782600565E1D /* ShowMapDemoView.swift */; };
 		8F7078A62AAC7AA500565E1D /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A52AAC7AA500565E1D /* Annotation.swift */; };
 		8F7078A92AAC886300565E1D /* MapKitEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078A82AAC886300565E1D /* MapKitEx.swift */; };
+		8F7078AB2AAC931700565E1D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7078AA2AAC931700565E1D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8F7078A32AAC782600565E1D /* ShowMapDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMapDemoView.swift; sourceTree = "<group>"; };
 		8F7078A52AAC7AA500565E1D /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		8F7078A82AAC886300565E1D /* MapKitEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitEx.swift; sourceTree = "<group>"; };
+		8F7078AA2AAC931700565E1D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		8F7078862AAC777E00565E1D = {
 			isa = PBXGroup;
 			children = (
+				8F7078AA2AAC931700565E1D /* LocationManager.swift */,
 				8F7078912AAC777E00565E1D /* SpotShare */,
 				8F7078902AAC777E00565E1D /* Products */,
 			);
@@ -168,6 +171,7 @@
 				8F7078A12AAC77F000565E1D /* GetLocationDemoUIView.swift in Sources */,
 				8F7078A62AAC7AA500565E1D /* Annotation.swift in Sources */,
 				8F7078A92AAC886300565E1D /* MapKitEx.swift in Sources */,
+				8F7078AB2AAC931700565E1D /* LocationManager.swift in Sources */,
 				8F7078952AAC777E00565E1D /* ContentView.swift in Sources */,
 				8F7078932AAC777E00565E1D /* SpotShareApp.swift in Sources */,
 				8F7078A42AAC782600565E1D /* ShowMapDemoView.swift in Sources */,
@@ -302,6 +306,7 @@
 				DEVELOPMENT_TEAM = RW9N8FZHM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "中心位置を求めるため位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,6 +336,7 @@
 				DEVELOPMENT_TEAM = RW9N8FZHM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "中心位置を求めるため位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

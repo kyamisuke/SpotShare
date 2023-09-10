@@ -11,7 +11,7 @@ import SwiftUI
 struct SpotShareApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GetLocationDemoUIView()
         }
     }
 }
