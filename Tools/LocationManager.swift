@@ -24,23 +24,23 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     }
     
     // 領域の更新をするデリゲートメソッド
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
-        // 配列の最後に最新のロケーションが格納される
-        // map関数を使って全要素にアクセス map{ $0←要素に参照 }
-        locations.last.map {
-            let center = CLLocationCoordinate2D(
-                latitude: $0.coordinate.latitude,
-                longitude: $0.coordinate.longitude)
-            
-            // 地図を表示するための領域を再構築
-            region = MKCoordinateRegion(
-                center: center,
-                latitudinalMeters: 1000.0,
-                longitudinalMeters: 1000.0
-            )
-        }
-    }
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//        
+//        // 配列の最後に最新のロケーションが格納される
+//        // map関数を使って全要素にアクセス map{ $0←要素に参照 }
+//        locations.last.map {
+//            let center = CLLocationCoordinate2D(
+//                latitude: $0.coordinate.latitude,
+//                longitude: $0.coordinate.longitude)
+//            
+//            // 地図を表示するための領域を再構築
+//            region = MKCoordinateRegion(
+//                center: center,
+//                latitudinalMeters: 1000.0,
+//                longitudinalMeters: 1000.0
+//            )
+//        }
+//    }
     
     func reloadRegion (){
         print("reload region")

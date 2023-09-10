@@ -42,10 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F7078862AAC777E00565E1D = {
+		8F52B7F02AAD966C00AA201E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 				8F7078AA2AAC931700565E1D /* LocationManager.swift */,
+				8F7078A52AAC7AA500565E1D /* Annotation.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8F7078862AAC777E00565E1D = {
+			isa = PBXGroup;
+			children = (
+				8F52B7F02AAD966C00AA201E /* Tools */,
 				8F7078912AAC777E00565E1D /* SpotShare */,
 				8F7078902AAC777E00565E1D /* Products */,
 			);
@@ -68,7 +77,6 @@
 				8F7078942AAC777E00565E1D /* ContentView.swift */,
 				8F7078962AAC778000565E1D /* Assets.xcassets */,
 				8F7078982AAC778000565E1D /* Preview Content */,
-				8F7078A52AAC7AA500565E1D /* Annotation.swift */,
 			);
 			path = SpotShare;
 			sourceTree = "<group>";
